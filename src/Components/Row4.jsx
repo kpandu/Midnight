@@ -11,7 +11,7 @@ export default class Row4 extends Component {
     return (
       <Grid container justify="center" alignItems="center" spacing={6}>
         <ProjectCard
-          src={require("../Assets/SOL4.jpg")}
+          src={require("../Assets/SOL4crop.jpg")}
           title="PROJECT CANVAS"
           width="100%"
           description="This website was the one that preceded the one you are viewing. It gave me the 

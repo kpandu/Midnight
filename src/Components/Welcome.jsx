@@ -4,12 +4,6 @@ import "./styles.css";
 import video from "../Assets/welcome.mp4";
 import { Fade } from "react-reveal";
 export default class Welcome extends Component {
-  componentDidMount() {
-    // let temp = document.getElementById("zoom");
-    // setTimeout(() => {
-    //   if (temp != null) temp.play();
-    // }, 10000);
-  }
   render() {
     return (
       <div style={{ minHeight: "100vh" }}>
@@ -22,6 +16,7 @@ export default class Welcome extends Component {
           <video
             id="bg-parallax"
             muted="muted"
+            preload="auto"
             autoPlay
             src={video}
             type="video/mp4"
@@ -40,6 +35,7 @@ export default class Welcome extends Component {
         >
           <video
             id="zoom"
+            preload="auto"
             muted="muted"
             autoPlay
             src={video}
@@ -69,9 +65,7 @@ export default class Welcome extends Component {
           >
             <div style={{ marginLeft: "-10%" }}>
               <h1 id="title">
-                <Fade bottom cascade>
-                  PROJECT: MIDNIGHT
-                </Fade>
+                <Fade bottom>PROJECT: MIDNIGHT</Fade>
               </h1>
               <h1 id="overlay-caption">
                 <Fade bottom delay={220}>

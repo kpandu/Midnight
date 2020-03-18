@@ -53,7 +53,7 @@ export default class Welcome extends Component {
               style={{ width: "73%" }}
             >
               <Grid item xs>
-                <Fade up delay={100} cascade>
+                <Fade up delay={100}>
                   <h6 className="square-text">
                     Hi, I'm Krishan. Currently I am a student at the University
                     of Maryland, College Park. I am a Junior majoring in
@@ -65,7 +65,7 @@ export default class Welcome extends Component {
                 </Fade>
               </Grid>
               <Grid item xs>
-                <Fade up delay={100} cascade>
+                <Fade up delay={100}>
                   <h6 className="square-text">
                     Hi, I'm Krishan. Currently I am a student at the University
                     of Maryland, College Park. I am a Junior majoring in

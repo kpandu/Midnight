@@ -4,7 +4,7 @@ import { Spring } from "react-spring/renderprops";
 import * as easings from "d3-ease";
 import VisibilitySensor from "react-visibility-sensor";
 import TrackVisibility from "react-on-screen";
-
+import EmailIcon from "@material-ui/icons/Email";
 export default function Contact() {
   return (
     <div>
@@ -48,7 +48,7 @@ export default function Contact() {
             alignItems="center"
           >
             <Grid item xs={6}>
-              <h1 id="title">EVENTUALLY MIDNIGHT PASSES...</h1>
+              <h1 id="title">EVENTUALLY MIDNIGHT COMES TO AN END...</h1>
             </Grid>
           </Grid>
 
@@ -87,6 +87,16 @@ export default function Contact() {
                     )
                   }
                 ></img>
+
+                <EmailIcon
+                  src={require("../Assets/linkedin.svg")}
+                  color="black"
+                  className="link"
+                  style={{ fontSize: 35.5 }}
+                  onClick={() =>
+                    (window.location.href = "mailto:krishan103@hotmail.com")
+                  }
+                ></EmailIcon>
               </Grid>
             </Grid>
           </Grid>

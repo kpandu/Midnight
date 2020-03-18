@@ -52,7 +52,7 @@ export default class SingleTech extends Component {
           }
         </TrackVisibility>
         ) }
-        <Fade cascade delay={1600 + this.props.delay / 1.5}>
+        <Fade delay={1600 + this.props.delay / 1.5}>
           <h1 id="tech-title" style={{ color: this.props.color }}>
             {this.props.title}
           </h1>
@@ -60,7 +60,7 @@ export default class SingleTech extends Component {
         <h1 id="tech-list">
           {this.props.list.map(x => {
             return (
-              <Fade cascade delay={1600 + this.props.delay / 1.5} key={x}>
+              <Fade delay={1600 + this.props.delay / 1.5} key={x}>
                 {x}
               </Fade>
             );

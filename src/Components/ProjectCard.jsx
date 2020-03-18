@@ -50,6 +50,7 @@ export default class ProjectCard extends Component {
             <video
               muted="muted"
               autoPlay
+              preload="auto"
               src={this.props.src}
               style={{
                 width: this.props.width,

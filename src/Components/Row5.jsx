@@ -14,14 +14,14 @@ export default class Row5 extends Component {
           width="50vw"
           video
           description="I really was blinded of how being overly flashy looks good. Before I 
-          realized that I was wrong, I made the above graphic that was going to be the at the very top of this
+          realized that I was wrong, I made the above graphic which was going to be the at the very top of this
           website. It is a real-time interactive 3D animation in space made with BabylonJS."
         />
 
         <Grid item xs container justify="center">
           <Fade zoom duration={1600}>
             <h1 id="quote" style={{ marginBottom: "25%", marginTop: "15%" }}>
-              "Imagination is more important than knowledge...
+              ...while imagination embraces the entire world...
             </h1>
           </Fade>
         </Grid>

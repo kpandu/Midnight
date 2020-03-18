@@ -28,13 +28,11 @@
   mix-blend-mode: difference;
 }
 
-
 #zoom {
   width: 65%;
   height: 50%;
   object-fit: cover;
   filter: hue-rotate(320deg) brightness(1.2);
-
 }
 
 #bg-parallax {
@@ -49,7 +47,7 @@
   max-height: none;
   visibility: visible;
   z-index: -1;
-  filter: hue-rotate(320deg) brightness(.4);
+  filter: hue-rotate(320deg) brightness(0.4);
 
   object-fit: cover;
 }
@@ -67,7 +65,7 @@
 }
 
 .square-text {
-  font-family: 'Montserrat', monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
@@ -107,7 +105,7 @@
 }
 
 #exp-paragraph {
-  font-family: 'Montserrat', monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -126,10 +124,8 @@
   color: #19c8fd;
 }
 
-
-
 .exp-bullets {
-  font-family: 'Montserrat', monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   color: #9c9c9c;
@@ -146,7 +142,7 @@
 }
 
 #tech-list {
-  font-family: 'Montserrat', monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 2;
@@ -169,7 +165,7 @@
 }
 
 #project-paragraph {
-  font-family: 'Montserrat', monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
@@ -194,8 +190,6 @@
   text-align: start;
 }
 
-
-
 #contact-description {
   font-size: 12px;
   font-family: "Montserrat";
@@ -213,4 +207,5 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+  font-size: 30px;
 }

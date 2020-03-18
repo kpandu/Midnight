@@ -60,8 +60,7 @@ export default class Projects extends Component {
               <Grid item container justify="center" xs></Grid>
               <Grid item container justify="flex-start" alignItems="center" xs>
                 <h1 id="quote" style={{ padding: 0 }}>
-                  ...while imagination embraces the entire world, and all there
-                  ever will be to know and understand. "
+                  ...and all there ever will be to know and understand. "
                 </h1>
                 <h1 id="exp-loc" style={{ textAlign: "start" }}>
                   Albert Einstein

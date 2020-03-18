@@ -22,7 +22,7 @@ export default class Technologies extends Component {
             </h1>
             <hr style={{ width: "30%", color: "white" }} />
           </Fade>
-          <Fade cascade up delay={2600}>
+          <Fade delay={2700}>
             <h1
               id="exp-paragraph"
               style={{ textAlign: "center", width: "40vw" }}
