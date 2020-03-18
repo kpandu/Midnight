@@ -74,7 +74,7 @@
   text-align: justify;
   text-justify: inter-word;
   color: white;
-  ;
+  word-wrap: break-word;
   min-width: 30vh;
 }
 
@@ -204,4 +204,13 @@
   color: white;
   mix-blend-mode: difference;
   text-align: start;
+}
+
+.link {
+  color: "black";
+  z-index: 5;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }

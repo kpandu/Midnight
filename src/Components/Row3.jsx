@@ -20,6 +20,7 @@ export default class Row3 extends Component {
           src={require("../Assets/tasker.mp4")}
           title="TASKER"
           width="30vh"
+          phone
           description="Tasker is a task manager app made for Android. It uses firebase
            for authentication and database storage."
           video

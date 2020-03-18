@@ -57,14 +57,37 @@ export default function Contact() {
             style={{ marginTop: "5%", marginLeft: "0%" }}
             justify="flex-end"
             alignItems="flex-end"
+            direction="column"
           >
-            <Grid item xs={6}>
+            <Grid item container direction="column" xs={6}>
               <h1 id="contact-description">
                 Midnight is when the line <br />
                 between imagination and innovation is blurred.
                 <br /> <br />
                 Krishan Panduwawala
               </h1>
+              <Grid container style={{ marginTop: "20px" }}>
+                <img
+                  src={require("../Assets/github.svg")}
+                  color="black"
+                  width="35"
+                  height="35"
+                  className="link"
+                  onClick={() =>
+                    window.location.assign("https://github.com/kpandu")
+                  }
+                ></img>
+                <img
+                  src={require("../Assets/linkedin.svg")}
+                  color="black"
+                  className="link"
+                  onClick={() =>
+                    window.location.assign(
+                      "https://www.linkedin.com/in/krishan-panduwawala-ba9749185/"
+                    )
+                  }
+                ></img>
+              </Grid>
             </Grid>
           </Grid>
         </Container>

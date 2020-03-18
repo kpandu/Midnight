@@ -60,7 +60,7 @@ export default class SingleTech extends Component {
         <h1 id="tech-list">
           {this.props.list.map(x => {
             return (
-              <Fade up delay={1600 + this.props.delay / 1.5} key={x}>
+              <Fade cascade delay={1600 + this.props.delay / 1.5} key={x}>
                 {x}
               </Fade>
             );

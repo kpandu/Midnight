@@ -53,7 +53,7 @@ export default class ProjectCard extends Component {
               src={this.props.src}
               style={{
                 width: this.props.width,
-                borderRadius: "20px"
+                borderRadius: this.props.phone ? "21px" : "0px"
               }}
               loop
               type="video/mp4"
