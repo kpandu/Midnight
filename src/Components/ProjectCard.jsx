@@ -1,11 +1,8 @@
+import { Grid } from "@material-ui/core";
 import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import "./styles.css";
-import Tilt from "react-tilt";
 import Fade from "react-reveal/Fade";
-import { Spring } from "react-spring/renderprops";
-import VisibilitySensor from "react-visibility-sensor";
-import AutomaticPlayer from "./AutomaticPlayer";
+import Tilt from "react-tilt";
+import "./styles.css";
 export default class ProjectCard extends Component {
   constructor(props) {
     super(props);

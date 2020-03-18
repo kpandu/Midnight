@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import { Spring } from "react-spring/renderprops";
-import * as easings from "d3-ease";
-import VisibilitySensor from "react-visibility-sensor";
-import TrackVisibility from "react-on-screen";
+import { Container, Grid } from "@material-ui/core";
 import EmailIcon from "@material-ui/icons/Email";
+import React from "react";
+import TrackVisibility from "react-on-screen";
+import { Spring } from "react-spring/renderprops";
 export default function Contact() {
   return (
     <div>

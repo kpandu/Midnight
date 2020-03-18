@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from "react";
-import { Grid, Container, SvgIcon } from "@material-ui/core";
-import "./styles.css";
-import { Fade } from "react-reveal";
-import { useSpring, animated } from "react-spring";
-import { Spring, config } from "react-spring/renderprops";
+import { Grid } from "@material-ui/core";
 import * as easings from "d3-ease";
+import React, { Component } from "react";
 import TrackVisibility from "react-on-screen";
+import { Fade } from "react-reveal";
+import { animated } from "react-spring";
+import { Spring } from "react-spring/renderprops";
+import "./styles.css";
 export default class SingleTech extends Component {
   render() {
     console.log(this.props);

@@ -1,12 +1,11 @@
+import { Container, Grid } from "@material-ui/core";
 import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import Me from "../Assets/me.png";
-import "./styles.css";
-import SectionHeader from "./SectionHeader";
+import { Fade } from "react-reveal";
 import { Spring } from "react-spring/renderprops";
 import VisibilitySensor from "react-visibility-sensor";
-import { Fade } from "react-reveal";
-import * as easings from "d3-ease";
+import Me from "../Assets/me.png";
+import SectionHeader from "./SectionHeader";
+import "./styles.css";
 export default class Welcome extends Component {
   render() {
     return (

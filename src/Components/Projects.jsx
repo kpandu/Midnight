@@ -1,16 +1,15 @@
+import { Container, Grid } from "@material-ui/core";
 import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import "./styles.css";
-import SectionHeader from "./SectionHeader";
+import { Fade } from "react-reveal";
+import { Spring } from "react-spring/renderprops";
+import VisibilitySensor from "react-visibility-sensor";
 import Row1 from "./Row1";
 import Row2 from "./Row2";
 import Row3 from "./Row3";
 import Row4 from "./Row4";
 import Row5 from "./Row5";
-import { Spring } from "react-spring/renderprops";
-import VisibilitySensor from "react-visibility-sensor";
-import { Fade } from "react-reveal";
-import * as easings from "d3-ease";
+import SectionHeader from "./SectionHeader";
+import "./styles.css";
 export default class Projects extends Component {
   render() {
     return (

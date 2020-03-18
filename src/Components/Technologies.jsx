@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import "./styles.css";
-import { Fade } from "react-reveal";
-import VisibilitySensor from "react-visibility-sensor";
-import SingleTech from "./SingleTech";
-import VisibilityOutlinedIcon from "@material-ui/icons/VisibilityOutlined";
+import { Container, Grid } from "@material-ui/core";
 import LocalFloristOutlinedIcon from "@material-ui/icons/LocalFloristOutlined";
 import MemoryOutlinedIcon from "@material-ui/icons/MemoryOutlined";
+import VisibilityOutlinedIcon from "@material-ui/icons/VisibilityOutlined";
+import React, { Component } from "react";
+import { Fade } from "react-reveal";
+import SingleTech from "./SingleTech";
+import "./styles.css";
 export default class Technologies extends Component {
   render() {
     return (
