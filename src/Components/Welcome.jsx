@@ -17,6 +17,8 @@ export default class Welcome extends Component {
             id="bg-parallax"
             muted="muted"
             autoPlay
+            preload
+            onLoad={alert("finished")}
             src={video}
             type="video/mp4"
           ></video>
@@ -36,6 +38,7 @@ export default class Welcome extends Component {
             id="zoom"
             muted="muted"
             autoPlay
+            preload
             src={video}
             type="video/mp4"
           ></video>
