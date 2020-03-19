@@ -24,8 +24,8 @@ export default function Contact() {
               {({ opacity }) => (
                 <div
                   style={{
-                    width: "100%",
-                    height: "100%",
+                    width: "120vw",
+                    height: "100vh",
                     left: 0,
                     top: 0,
                     position: "absolute",

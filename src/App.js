@@ -9,7 +9,7 @@ import Contact from "./Components/Contact";
 import Technologies from "./Components/Technologies";
 function App() {
   return (
-    <div>
+    <div style={{ maxWidth: "100vw" }}>
       <Splash />
       <Welcome />
       <About />

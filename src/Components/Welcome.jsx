@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import "./styles.css";
-import video from "../Assets/welcome.mp4";
+import video from "../Assets/welcome_Trim.mp4";
 import { Fade } from "react-reveal";
 export default class Welcome extends Component {
   render() {

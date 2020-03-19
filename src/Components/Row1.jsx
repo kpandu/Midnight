@@ -10,18 +10,16 @@ export default class Row1 extends Component {
       <Grid container justify="center" alignItems="flex-start" spacing={6}>
         <ProjectCard
           src="https://cdn.shopify.com/s/files/1/2723/6790/collections/Large_Website_CROPPED-8158_c27a7da0-a6e5-43ea-93b6-f87a33505287_2048x.jpg?v=1515986208"
-          title="EXODUS"
+          title="TEMPORARY PLACEHOLDER "
           width="100%"
-          description="Despite what you think,
-           the above image is one of many versions of Sol III. It taught 3-D programming along with the math involved."
+          description="asdasd"
           left
         />
 
         <ProjectCard
           src="https://cdn.shopify.com/s/files/1/2723/6790/collections/Large_Website_CROPPED-8158_c27a7da0-a6e5-43ea-93b6-f87a33505287_2048x.jpg?v=1515986208"
-          title="EXODUS"
-          description="Despite what you think,
-           the above image is one of many versions of Sol III. It taught 3-D programming along with the math involved."
+          title="TEMPORARY PLACEHOLDER"
+          description="asdasd"
           width="90%"
         />
 

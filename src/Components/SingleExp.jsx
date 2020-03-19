@@ -7,7 +7,13 @@ export default class SingleExp extends Component {
     return (
       <Grid container style={{ marginTop: "8% ", marginBottom: "10%" }}>
         <Grid container item justify="flex-end" xs>
-          <Grid container item direction="column" alignItems="flex-start">
+          <Grid
+            container
+            item
+            direction="column"
+            alignItems="flex-start"
+            style={{ paddingRight: "40px", paddingBottom: "20px" }}
+          >
             <Fade up>
               <h1 id="exp-title">{this.props.title}</h1>
               <h1 id="exp-caption">{this.props.caption.toUpperCase()}</h1>
