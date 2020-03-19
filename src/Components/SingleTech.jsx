@@ -51,7 +51,7 @@ export default class SingleTech extends Component {
             )
           }
         </TrackVisibility>
-        ) }
+
         <Fade delay={1600 + this.props.delay / 1.5}>
           <h1 id="tech-title" style={{ color: this.props.color }}>
             {this.props.title}

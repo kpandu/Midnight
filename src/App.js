@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Splash from "./Components/Splash";
 import Welcome from "./Components/Welcome";
 import About from "./Components/About";
 import Experience from "./Components/Experience";
@@ -9,6 +10,7 @@ import Technologies from "./Components/Technologies";
 function App() {
   return (
     <div>
+      <Splash />
       <Welcome />
       <About />
       <Experience />

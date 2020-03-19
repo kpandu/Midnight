@@ -88,7 +88,6 @@ export default function Contact() {
 
                 <EmailIcon
                   src={require("../Assets/linkedin.svg")}
-                  color="black"
                   className="link"
                   style={{ fontSize: 35.5 }}
                   onClick={() =>
