@@ -32,8 +32,8 @@ export default class Technologies extends Component {
               now I am an undergraduate reseacher in computer vision applying
               the latest techniques such as YOLO object detection. I am also
               using machine learning to detect unsafe driving. To answer the
-              question, I am a Data Scientist, with an emphasis on fullstack
-              development and computer vision.
+              question, I am a Data Scientist focusing on fullstack development
+              and computer vision.
             </h1>
           </Fade>
           <Container>

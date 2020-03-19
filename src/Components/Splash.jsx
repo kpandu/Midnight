@@ -48,6 +48,7 @@ export default class Splash extends Component {
               container
               justify="center"
               alignItems="center"
+              direction="column"
               style={{
                 width: "100vw",
                 height: "100vh",
@@ -70,6 +71,7 @@ export default class Splash extends Component {
                   <VisibilityOutlinedIcon />
                 </animated.svg>
               </Fade>
+              <h1 id="exp-caption">LOADING...</h1>
             </Grid>
           )}
         </Spring>
