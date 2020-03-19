@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "git add .; git commit -m \"minor change\"; git push origin master; npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
