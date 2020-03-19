@@ -60,8 +60,8 @@ export default function Contact() {
             <Grid item container direction="column" xs={6}>
               <h1 id="contact-description">
                 Midnight is when the line <br />
-                between imagination and innovation is blurred. I also wrote this
-                site at midnight.
+                between imagination and innovation is blurred.
+                <br />I also wrote this site at midnight.
                 <br /> <br />
                 Made with ReactJS.
                 <br /> <br />
