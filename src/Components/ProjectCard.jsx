@@ -18,8 +18,7 @@ export default class ProjectCard extends Component {
         xs
         justify={side}
         style={{
-          marginBottom: "5%",
-          marginTop: this.props.top
+          marginBottom: "5%"
         }}
       >
         <Grid

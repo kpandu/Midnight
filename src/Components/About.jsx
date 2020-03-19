@@ -66,12 +66,12 @@ export default class Welcome extends Component {
               <Grid item xs>
                 <Fade up delay={100}>
                   <h6 className="square-text">
-                    Hi, I'm Krishan. Currently I am a student at the University
-                    of Maryland, College Park. I am a Junior majoring in
-                    Computer Science with an upper level concentration in
-                    Mathematics. I have just completed a summer long internship
-                    at Boeing Intelligence & Analytics, where I developed a
-                    strong interest and skill set for Fullstack Development.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
                   </h6>
                 </Fade>
               </Grid>

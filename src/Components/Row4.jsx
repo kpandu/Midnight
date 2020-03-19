@@ -19,12 +19,9 @@ export default class Row4 extends Component {
           and unrepresentative of my true character. This is why I sidelined the site and made Midnight,
           which is intended to be unique."
           center
-          top="5vw"
           width="400px"
         />
-        <Grid item container justify="center" xs>
-          <ArrowDownwardIcon style={{ color: "white", fontSize: "100px" }} />
-        </Grid>
+
         <ProjectCard
           src={sol2}
           title="PROJECT PARALLAX"
