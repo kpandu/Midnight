@@ -1,5 +1,5 @@
 #title {
-  font-size: 55px;
+  font-size: 5vh;
   font-family: "Montserrat";
   font-weight: bold;
   margin: 0;
@@ -187,7 +187,7 @@
 }
 
 #quote {
-  font-size: 50px;
+  font-size: 5vh;
   font-family: "Montserrat";
   font-weight: 700;
   color: white;

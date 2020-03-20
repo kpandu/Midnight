@@ -17,7 +17,7 @@ export default class Technologies extends Component {
         <Grid container justify="center" direction="column" alignItems="center">
           <Fade>
             <h1 id="title" style={{ textAlign: "center" }}>
-              SKILLS & TECHNOLOGIES
+              SKILLS
             </h1>
             <hr style={{ width: "30%", color: "white" }} />
           </Fade>
@@ -41,7 +41,7 @@ export default class Technologies extends Component {
               container
               justify="space-evenly"
               style={{ marginTop: "4%" }}
-              alignItems="center"
+              alignItems="flex-start"
               spacing={5}
             >
               <SingleTech
