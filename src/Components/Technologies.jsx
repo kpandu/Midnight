@@ -56,14 +56,14 @@ export default class Technologies extends Component {
                 list={["ExpressJS", "Firebase", "MongoDB", "AWS"]}
                 color="purple"
                 svg={MemoryOutlinedIcon}
-                delay={400}
+                delay={500}
               />
               <SingleTech
                 title="DATA SCIENCE / VISION"
                 list={["Tensorflow", "Scikit Learn", "CV2", "Keras"]}
                 color="#ff450c"
                 svg={VisibilityOutlinedIcon}
-                delay={800}
+                delay={1000}
               />
             </Grid>
           </Container>

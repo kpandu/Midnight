@@ -17,7 +17,7 @@ export default class Row2 extends Component {
           description=""
           center
         />
-        <Grid item container justify="flex-start" xs>
+        <Grid item container justify="flex-start" xs style={{ margin: "20px" }}>
           <Fade bottom>
             <h1 className="project-title">CRYSTAL SKY</h1>
 
