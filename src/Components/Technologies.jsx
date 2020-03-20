@@ -12,7 +12,7 @@ export default class Technologies extends Component {
       <Grid
         container
         alignItems="center"
-        style={{ height: "120vh", width: "100vw" }}
+        style={{ minHeight: "120vh", width: "100vw" }}
       >
         <Grid container justify="center" direction="column" alignItems="center">
           <Fade>
