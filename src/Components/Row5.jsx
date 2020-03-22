@@ -11,7 +11,7 @@ export default class Row5 extends Component {
         <ProjectCard
           src={require("../Assets/sol3video.mp4")}
           title="SOL"
-          width="50vw"
+          width="60vw"
           video
           description="I really was blinded of how being overly flashy looks good. Before I 
           realized that I was wrong, I made the above graphic which was going to be the at the very top of this

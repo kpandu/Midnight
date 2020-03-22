@@ -28,7 +28,7 @@ export default class Row4 extends Component {
           description="I was really interested in parallax and wanted to learn React, therefore I combined the
           2 into the site above. It built a strong foundation in states and functional/class components. The site
           features a parallax downfall from space to the bottom of the sea."
-          width="50vw"
+          width="60vw"
           center
           video
         />
