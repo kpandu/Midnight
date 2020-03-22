@@ -16,11 +16,9 @@ export default class Splash extends Component {
     window.onscroll = function() {
       window.scrollTo(x, y);
     };
+    document.getElementsByTagName("html")[0].style.overflowY = "hidden";
   }
 
-  enableScrolling() {
-    window.onscroll = function() {};
-  }
   componentDidMount() {
     this.disableScrolling();
   }

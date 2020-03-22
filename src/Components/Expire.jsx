@@ -26,7 +26,7 @@ export default class Expire extends React.Component {
     this._timer = setTimeout(
       function() {
         window.onscroll = function() {};
-        document.body.style["overflow-y"] = "visible";
+        document.getElementsByTagName("html")[0].style.overflowY = "visible";
         this.setState({ visible: false });
         this._timer = null;
       }.bind(this),
