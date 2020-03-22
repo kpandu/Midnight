@@ -4,6 +4,10 @@ import "./styles.css";
 import video from "../Assets/welcome_Trim.mp4";
 import { Fade } from "react-reveal";
 export default class Welcome extends Component {
+  replay = () => {
+    document.getElementsByTagName("video").currentTime = 0;
+    document.getElementsByTagName("video")[0].play();
+  };
   render() {
     return (
       <div style={{ minHeight: "100vh" }}>
@@ -19,6 +23,7 @@ export default class Welcome extends Component {
             autoPlay
             loop
             src={video}
+            onEnded={this.replay}
             type="video/mp4"
             preload="true"
           ></video>
