@@ -31,7 +31,7 @@ export default class Row3 extends Component {
           title="CANNY EDGE DETECTION"
           description="Canny edge detection using only numpy and pillow. First a gaussian blur filter is applied. Then
           gradient filters are applied. The the resulting matricies are used to compute edge strength and edge orientation.
-          There are used to conduct non maximum suppression yielding the above image after a threshold is applied."
+          These are used to conduct non maximum suppression yielding the above image after a threshold is applied."
           width="100%"
           top="30%"
         />

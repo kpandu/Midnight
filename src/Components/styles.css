@@ -1,5 +1,5 @@
 #title {
-  font-size: 55px;
+  font-size: 48px;
   font-family: "Montserrat";
   font-weight: bold;
   margin: 0;
@@ -59,7 +59,7 @@
   max-height: none;
   visibility: visible;
   z-index: -2;
-  filter: hue-rotate(320deg) brightness(0.4);
+  filter: hue-rotate(320deg) brightness(0.2);
 
   object-fit: cover;
 }

@@ -50,6 +50,7 @@ export default class ProjectCard extends Component {
               src={this.props.src}
               style={{
                 width: this.props.width,
+                minWidth: "300px",
                 borderRadius: this.props.phone ? "21px" : "0px"
               }}
               loop
