@@ -1,8 +1,8 @@
+import { Grid } from "@material-ui/core";
 import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import "./styles.css";
-import ProjectCard from "./ProjectCard";
 import { Fade } from "react-reveal";
+import ProjectCard from "./ProjectCard";
+import "./styles.css";
 
 export default class Row5 extends Component {
   render() {

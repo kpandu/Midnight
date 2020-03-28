@@ -1,11 +1,8 @@
+import { Grid } from "@material-ui/core";
 import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import "./styles.css";
-import ProjectCard from "./ProjectCard";
-import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
-import SvgIcon from "@material-ui/core/SvgIcon";
-import oldsite from "../Assets/oldsite.png";
 import sol2 from "../Assets/sol2video.mp4";
+import ProjectCard from "./ProjectCard";
+import "./styles.css";
 export default class Row4 extends Component {
   render() {
     return (
