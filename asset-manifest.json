@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.97a580d4.chunk.css",
-    "main.js": "/static/js/main.f0782294.chunk.js",
-    "main.js.map": "/static/js/main.f0782294.chunk.js.map",
+    "main.js": "/static/js/main.281d2659.chunk.js",
+    "main.js.map": "/static/js/main.281d2659.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e58e0802.js",
     "runtime-main.js.map": "/static/js/runtime-main.e58e0802.js.map",
-    "static/js/2.ebc874e4.chunk.js": "/static/js/2.ebc874e4.chunk.js",
-    "static/js/2.ebc874e4.chunk.js.map": "/static/js/2.ebc874e4.chunk.js.map",
+    "static/js/2.1788b5fc.chunk.js": "/static/js/2.1788b5fc.chunk.js",
+    "static/js/2.1788b5fc.chunk.js.map": "/static/js/2.1788b5fc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6051d7e4a2074c7953b3fd2a9da7135c.js": "/precache-manifest.6051d7e4a2074c7953b3fd2a9da7135c.js",
+    "precache-manifest.069af793c451d47e3d3db643426b7e19.js": "/precache-manifest.069af793c451d47e3d3db643426b7e19.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.97a580d4.chunk.css.map": "/static/css/main.97a580d4.chunk.css.map",
-    "static/js/2.ebc874e4.chunk.js.LICENSE.txt": "/static/js/2.ebc874e4.chunk.js.LICENSE.txt",
+    "static/js/2.1788b5fc.chunk.js.LICENSE.txt": "/static/js/2.1788b5fc.chunk.js.LICENSE.txt",
     "static/media/SOL4crop.jpg": "/static/media/SOL4crop.c4755f22.jpg",
     "static/media/canny.png": "/static/media/canny.73242700.png",
     "static/media/crystalnew.png": "/static/media/crystalnew.7eff92fb.png",
@@ -19,7 +19,6 @@
     "static/media/github.svg": "/static/media/github.1bb02710.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.937b5084.svg",
     "static/media/me.png": "/static/media/me.8fee914c.png",
-    "static/media/oldsite.png": "/static/media/oldsite.252a7073.png",
     "static/media/sol2video.mp4": "/static/media/sol2video.2b4030ae.mp4",
     "static/media/sol3video.mp4": "/static/media/sol3video.51d5a75b.mp4",
     "static/media/tasker.mp4": "/static/media/tasker.57c00019.mp4",
@@ -27,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e58e0802.js",
-    "static/js/2.ebc874e4.chunk.js",
+    "static/js/2.1788b5fc.chunk.js",
     "static/css/main.97a580d4.chunk.css",
-    "static/js/main.f0782294.chunk.js"
+    "static/js/main.281d2659.chunk.js"
   ]
 }
