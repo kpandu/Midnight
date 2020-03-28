@@ -9,7 +9,7 @@ import sol2 from "../Assets/sol2video.mp4";
 export default class Row4 extends Component {
   render() {
     return (
-      <Grid container justify="center" alignItems="center" spacing={6}>
+      <Grid container justify="center" alignItems="flex-start" spacing={6}>
         <ProjectCard
           src={require("../Assets/SOL4crop.jpg")}
           title="PROJECT CANVAS"
