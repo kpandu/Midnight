@@ -15,7 +15,7 @@ export default class Row1 extends Component {
           width="90%"
         />
         <ProjectCard
-          src={require("../Assets/Social.mp4")}
+          src={require("../Assets/social_cropped.mp4")}
           title="IOS/Android Social Media App"
           width="40vh"
           phone
