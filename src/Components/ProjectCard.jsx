@@ -30,8 +30,8 @@ export default class ProjectCard extends Component {
           style={{ width: this.props.width }}
         >
           {!this.props.video && (
-            <Fade zoom>
-              <Tilt options={{ max: 6 }}>
+            <Tilt options={{ max: 6 }}>
+              <Fade zoom>
                 <img
                   src={this.props.src}
                   id="proj-img"
@@ -39,23 +39,27 @@ export default class ProjectCard extends Component {
                     width: this.props.width
                   }}
                 />
-              </Tilt>
-            </Fade>
+              </Fade>
+            </Tilt>
           )}
           {this.props.video && (
-            <video
-              muted="muted"
-              autoPlay
-              preload="auto"
-              src={this.props.src}
-              style={{
-                width: this.props.width,
-                minWidth: "300px",
-                borderRadius: this.props.phone ? "21px" : "0px"
-              }}
-              loop
-              type="video/mp4"
-            ></video>
+            <Tilt options={{ max: 6 }}>
+              <Fade zoom>
+                <video
+                  muted="muted"
+                  autoPlay
+                  preload="auto"
+                  src={this.props.src}
+                  style={{
+                    width: this.props.width,
+                    minWidth: "300px",
+                    borderRadius: this.props.phone ? "21px" : "0px"
+                  }}
+                  loop
+                  type="video/mp4"
+                ></video>
+              </Fade>
+            </Tilt>
           )}
           <Fade bottom>
             <h1 className="project-title">{this.props.title}</h1>

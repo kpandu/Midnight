@@ -10,19 +10,19 @@ export default class Row1 extends Component {
       <Grid container justify="center" alignItems="flex-start" spacing={6}>
         <ProjectCard
           src="https://cdn.shopify.com/s/files/1/2723/6790/collections/Large_Website_CROPPED-8158_c27a7da0-a6e5-43ea-93b6-f87a33505287_2048x.jpg?v=1515986208"
-          title="TEMPORARY PLACEHOLDER "
-          width="100%"
-          description="asdasd"
-          left
-        />
-
-        <ProjectCard
-          src="https://cdn.shopify.com/s/files/1/2723/6790/collections/Large_Website_CROPPED-8158_c27a7da0-a6e5-43ea-93b6-f87a33505287_2048x.jpg?v=1515986208"
           title="TEMPORARY PLACEHOLDER"
           description="asdasd"
           width="90%"
         />
-
+        <ProjectCard
+          src={require("../Assets/Social.mp4")}
+          title="IOS/Android Social Media App"
+          width="40vh"
+          phone
+          description="This is a social media app similar to Instagram,
+           which was made with React Native & Firebase."
+          video
+        />
         <Grid item xs container justify="center">
           <Fade zoom duration={1600}>
             <h1 id="quote" style={{ marginBottom: "25%", marginTop: "15%" }}>
