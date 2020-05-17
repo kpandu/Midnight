@@ -6,7 +6,6 @@ import bg_video from "../Assets/welcome-bg.mp4";
 import { Fade } from "react-reveal";
 export default class Welcome extends Component {
   replay = () => {
-    document.getElementsByTagName("video").currentTime = 0;
     document.getElementsByTagName("video")[0].play();
     document.getElementsByTagName("video")[1].play();
   };
