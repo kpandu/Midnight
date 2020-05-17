@@ -13,7 +13,7 @@ export default class Splash extends Component {
     var x = 0;
     var y = 0;
 
-    window.onscroll = function() {
+    window.onscroll = function () {
       window.scrollTo(x, y);
     };
     document.getElementsByTagName("html")[0].style.overflowY = "hidden";
@@ -29,19 +29,19 @@ export default class Splash extends Component {
           position: "absolute",
           width: "100%",
           height: "100%",
-          zIndex: 55
+          zIndex: 55,
         }}
-        delay={9000}
+        delay={5500}
       >
         <Spring
-          from={{ value: 2, opacity: 7 }}
+          from={{ value: 3, opacity: 7 }}
           to={{ value: 38, opacity: 0 }}
           config={{
-            duration: 9000,
-            easing: easings.easeCubic
+            duration: 5500,
+            easing: easings.easeCubic,
           }}
         >
-          {props => (
+          {(props) => (
             <Grid
               container
               justify="center"
@@ -50,16 +50,16 @@ export default class Splash extends Component {
               style={{
                 width: "100vw",
                 height: "100vh",
-                zIndex: 39999,
+                zIndex: 9999,
                 position: "relative",
                 backgroundColor: "black",
-                opacity: props.opacity
+                opacity: props.opacity,
               }}
             >
               <Fade zoom>
                 <animated.svg
-                  width="75"
-                  height="75"
+                  width="85"
+                  height="85"
                   stroke="white"
                   fill="none"
                   strokeWidth={0.7}

@@ -59,11 +59,11 @@
   max-height: none;
   visibility: visible;
   z-index: -2;
-  filter: hue-rotate(320deg) brightness(0.2);
-  -webkit-filter: hue-rotate(320deg) brightness(0.2);
-  -moz-filter: hue-rotate(320deg) brightness(0.2);
-  -o-filter: hue-rotate(320deg) brightness(0.2);
-  -ms-filter: hue-rotate(320deg) brightness(0.2);
+  filter: hue-rotate(320deg) brightness(0.25);
+  -webkit-filter: hue-rotate(320deg) brightness(0.25);
+  -moz-filter: hue-rotate(320deg) brightness(0.25);
+  -o-filter: hue-rotate(320deg) brightness(0.25);
+  -ms-filter: hue-rotate(320deg) brightness(0.25);
   object-fit: cover;
 }
 
