@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8420aed7.chunk.css",
-    "main.js": "/static/js/main.aeceecbd.chunk.js",
-    "main.js.map": "/static/js/main.aeceecbd.chunk.js.map",
+    "main.css": "/static/css/main.44eb24b9.chunk.css",
+    "main.js": "/static/js/main.62c64cb1.chunk.js",
+    "main.js.map": "/static/js/main.62c64cb1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e58e0802.js",
     "runtime-main.js.map": "/static/js/runtime-main.e58e0802.js.map",
-    "static/js/2.1b85fa8f.chunk.js": "/static/js/2.1b85fa8f.chunk.js",
-    "static/js/2.1b85fa8f.chunk.js.map": "/static/js/2.1b85fa8f.chunk.js.map",
+    "static/js/2.98d96b1a.chunk.js": "/static/js/2.98d96b1a.chunk.js",
+    "static/js/2.98d96b1a.chunk.js.map": "/static/js/2.98d96b1a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ac334e81e252ff0931857cb48b87c1dc.js": "/precache-manifest.ac334e81e252ff0931857cb48b87c1dc.js",
+    "precache-manifest.97f34249321e2d4a00649be6f455ea34.js": "/precache-manifest.97f34249321e2d4a00649be6f455ea34.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8420aed7.chunk.css.map": "/static/css/main.8420aed7.chunk.css.map",
-    "static/js/2.1b85fa8f.chunk.js.LICENSE.txt": "/static/js/2.1b85fa8f.chunk.js.LICENSE.txt",
+    "static/css/main.44eb24b9.chunk.css.map": "/static/css/main.44eb24b9.chunk.css.map",
+    "static/js/2.98d96b1a.chunk.js.LICENSE.txt": "/static/js/2.98d96b1a.chunk.js.LICENSE.txt",
     "static/media/MediaCNN.mp4": "/static/media/MediaCNN.210a5439.mp4",
     "static/media/SOL4crop.jpg": "/static/media/SOL4crop.c4755f22.jpg",
     "static/media/canny.png": "/static/media/canny.73242700.png",
@@ -25,12 +25,13 @@
     "static/media/sol2video.mp4": "/static/media/sol2video.2b4030ae.mp4",
     "static/media/sol3video.mp4": "/static/media/sol3video.51d5a75b.mp4",
     "static/media/tasker.mp4": "/static/media/tasker.57c00019.mp4",
+    "static/media/welcome-bg.mp4": "/static/media/welcome-bg.d5953f28.mp4",
     "static/media/welcome_Trim.mp4": "/static/media/welcome_Trim.ffef58a0.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.e58e0802.js",
-    "static/js/2.1b85fa8f.chunk.js",
-    "static/css/main.8420aed7.chunk.css",
-    "static/js/main.aeceecbd.chunk.js"
+    "static/js/2.98d96b1a.chunk.js",
+    "static/css/main.44eb24b9.chunk.css",
+    "static/js/main.62c64cb1.chunk.js"
   ]
 }
