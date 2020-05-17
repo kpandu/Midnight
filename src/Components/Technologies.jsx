@@ -60,7 +60,7 @@ export default class Technologies extends Component {
               />
               <SingleTech
                 title="DATA SCIENCE / VISION"
-                list={["Tensorflow", "Scikit Learn", "CV2", "Keras"]}
+                list={["Tensorflow", "Pytorch", "CV2", "Keras"]}
                 color="#ff450c"
                 svg={VisibilityOutlinedIcon}
                 delay={1000}
