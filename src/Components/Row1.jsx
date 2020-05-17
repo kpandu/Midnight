@@ -16,7 +16,7 @@ export default class Row1 extends Component {
         />
         <ProjectCard
           src={require("../Assets/social_cropped.mp4")}
-          title="IOS/Android Social Media App"
+          title="IOS/ANDROID SOCIAL MEDIA APP"
           width="40vh"
           phone
           description="This is a social media app similar to Instagram,

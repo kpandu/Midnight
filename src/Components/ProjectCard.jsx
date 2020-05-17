@@ -18,7 +18,7 @@ export default class ProjectCard extends Component {
         xs
         justify={side}
         style={{
-          marginBottom: "5%"
+          marginBottom: "5%",
         }}
       >
         <Grid
@@ -30,20 +30,20 @@ export default class ProjectCard extends Component {
           style={{ width: this.props.width }}
         >
           {!this.props.video && (
-            <Tilt options={{ max: 6 }}>
+            <Tilt options={{ max: 0, scale: 1.05 }}>
               <Fade zoom>
                 <img
                   src={this.props.src}
                   id="proj-img"
                   style={{
-                    width: this.props.width
+                    width: this.props.width,
                   }}
                 />
               </Fade>
             </Tilt>
           )}
           {this.props.video && (
-            <Tilt options={{ max: 6 }}>
+            <Tilt options={{ max: 0, scale: 1.05 }}>
               <Fade zoom>
                 <video
                   muted="muted"
@@ -53,7 +53,7 @@ export default class ProjectCard extends Component {
                   style={{
                     width: this.props.width,
                     minWidth: "300px",
-                    borderRadius: this.props.phone ? "21px" : "0px"
+                    borderRadius: this.props.phone ? "21px" : "0px",
                   }}
                   loop
                   type="video/mp4"

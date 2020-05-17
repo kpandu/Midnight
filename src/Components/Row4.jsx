@@ -8,17 +8,13 @@ export default class Row4 extends Component {
     return (
       <Grid container justify="center" alignItems="flex-start" spacing={6}>
         <ProjectCard
-          src={require("../Assets/SOL4crop.jpg")}
-          title="PROJECT CANVAS"
-          width="100%"
-          description="This website was the one that preceded the one you are viewing. It gave me the 
-          inspiration for really bold text, and being really plain. Of course, it felt really boring
-          and unrepresentative of my true character. This is why I sidelined the site and made Midnight,
-          which is intended to be unique."
+          src={require("../Assets/flapong.jpg")}
+          title="FLAPPY BIRD / PONG"
+          width="97%"
+          description={`Making games may not be my specialization, yet they teach so much. 
+          Through creating Flappy Bird in Java and Pong in Python, I took my first steps into both languages.`}
           center
-          width="400px"
         />
-
         <ProjectCard
           src={sol2}
           title="PROJECT PARALLAX"

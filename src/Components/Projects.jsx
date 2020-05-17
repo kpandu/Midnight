@@ -8,6 +8,7 @@ import Row2 from "./Row2";
 import Row3 from "./Row3";
 import Row4 from "./Row4";
 import Row5 from "./Row5";
+import Row6 from "./Row6";
 import SectionHeader from "./SectionHeader";
 import "./styles.css";
 export default class Projects extends Component {
@@ -23,7 +24,7 @@ export default class Projects extends Component {
                   delay={100}
                   config={{
                     duration: 600,
-                    easing: x => x
+                    easing: (x) => x,
                   }}
                   to={{ width: isVisible ? "50%" : "0%" }}
                 >
@@ -40,6 +41,7 @@ export default class Projects extends Component {
           </Container>
           <Grid container justify="center" style={{ width: "90vw" }}>
             <Row1 />
+            <Row6 />
             <Row2 />
             <Row3 />
             <Row4 />

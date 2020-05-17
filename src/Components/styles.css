@@ -82,7 +82,6 @@
 }
 
 .square-text {
-  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
@@ -94,7 +93,7 @@
 }
 
 #profile-pic {
-  width: 30%;
+  width: 21%;
   margin: 6%;
   min-width: 25vh;
 
@@ -114,15 +113,14 @@
 #exp-caption {
   font-size: 12px;
   font-weight: 600;
-  font-family: "Montserrat";
   margin: 0;
+  font-family: "Montserrat";
   text-align: start;
   color: white;
   mix-blend-mode: difference;
 }
 
 #exp-paragraph {
-  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -135,14 +133,12 @@
 #exp-loc {
   font-size: 15px;
   font-weight: bold;
-  font-family: "Montserrat";
   margin: 0;
   text-align: start;
   color: #19c8fd;
 }
 
 .exp-bullets {
-  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   color: #9c9c9c;
@@ -159,7 +155,6 @@
 }
 
 #tech-list {
-  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 2;
@@ -182,10 +177,10 @@
 }
 
 #project-paragraph {
-  font-family: "Montserrat", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
+
 
   color: white;
   width: 80%;

@@ -20,7 +20,10 @@ export default class Experience extends Component {
             {({ isVisible }) => (
               <Spring
                 delay={100}
-                config={{ duration: 600, easing: x => Math.sqrt(Math.sqrt(x)) }}
+                config={{
+                  duration: 600,
+                  easing: (x) => Math.sqrt(Math.sqrt(x)),
+                }}
                 to={{ width: isVisible ? "50%" : "0%" }}
               >
                 {({ width }) => (
@@ -50,7 +53,7 @@ export default class Experience extends Component {
           bullets={[
             "Hosted ReactJS frontend on AWS S3, ExpressJS REST APIs on AWS EC2, and MySQL database in AWS RDS.",
             "Improved reliability with multiple REST APIs in a microservice architecture.",
-            "Maximized scalability by deploying through AWS Elastic Beanstalk."
+            "Maximized scalability by deploying through AWS Elastic Beanstalk.",
           ]}
           caption="Software Engineer Intern"
         />
@@ -65,6 +68,23 @@ export default class Experience extends Component {
           align="left"
           bullets={[]}
           caption="Teaching Assistant"
+        />
+        <SingleExp
+          title="UMD"
+          loc="College Park, MD"
+          date="August 2019 - May 2020"
+          description="Under the guidance of Prof. Muhammad Nayeem Teli, Hyekang Joo, Ashan Panduwawala, and I completed a 3-point distracted/drowsy driver
+          detection application that runs on a Rasberry Pi in a car. The main features include: yawn frequency detection;
+            blink detection; and finally driver action detection. I completed the third part,
+            where I trained a convolutional neural network using transfer learning 
+            and YOLO object detection to predict the actions of a driver. Actions include and are not limited to:
+             texting, calling, driving normally,
+             and reaching behind. The system was optimized heavily to allow for real-time detection.
+          "
+          src="https://www.cs.umd.edu/sites/default/files/logo_top_bottom.png"
+          align="left"
+          bullets={[]}
+          caption="Undergraduate Researcher"
         />
         <SingleExp
           title="AMAZON"
@@ -82,7 +102,7 @@ export default class Experience extends Component {
           bullets={[
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.",
-            "Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed."
+            "Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed.",
           ]}
           caption="Software Development Engineer Intern"
         />
