@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import "./styles.css";
 import video from "../Assets/welcome_Trim.mp4";
+import bg_video from "../Assets/welcome-bg.mp4";
 import { Fade } from "react-reveal";
 export default class Welcome extends Component {
   replay = () => {
     document.getElementsByTagName("video").currentTime = 0;
     document.getElementsByTagName("video")[0].play();
+    document.getElementsByTagName("video")[1].play();
   };
   render() {
     return (
@@ -21,7 +23,7 @@ export default class Welcome extends Component {
             id="bg-parallax"
             muted="muted"
             autoPlay
-            src={video}
+            src={bg_video}
             onEnded={this.replay}
             type="video/mp4"
             preload="true"
@@ -35,7 +37,7 @@ export default class Welcome extends Component {
           style={{
             height: "100vh",
             position: "absolute",
-            top: "0"
+            top: "0",
           }}
         >
           <video
@@ -44,6 +46,7 @@ export default class Welcome extends Component {
             muted="muted"
             autoPlay
             src={video}
+            onEnded={this.replay}
             type="video/mp4"
           ></video>
         </Grid>
@@ -54,7 +57,7 @@ export default class Welcome extends Component {
           style={{
             height: "100vh",
             position: "absolute",
-            top: "0"
+            top: "0",
           }}
         >
           <Grid
@@ -65,14 +68,14 @@ export default class Welcome extends Component {
             style={{
               width: "65%",
               height: "55%",
-              position: "relative"
+              position: "relative",
             }}
           >
             <div style={{ marginLeft: "-10%" }}>
               <h1 id="title">
                 <Fade bottom>PROJECT: MIDNIGHT</Fade>
               </h1>
-              <h1 id="overlay-caption">
+              <h1 id="overlay-caption" onClick={this.replay}>
                 <Fade bottom delay={220}>
                   KRISHAN PANDUWAWALA
                 </Fade>

@@ -10,7 +10,7 @@ import Technologies from "./Components/Technologies";
 function App() {
   return (
     <div style={{ maxWidth: "100vw" }}>
-      <Splash />
+      {/* <Splash /> */}
       <Welcome />
       <About />
       <Experience />
