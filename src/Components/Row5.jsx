@@ -13,9 +13,10 @@ export default class Row5 extends Component {
           title="SOL"
           width="60vw"
           video
-          description="I really was blinded of how being overly flashy looks good. Before I 
+          description="I was blinded by thinking that overly flashy looks good. Before I 
           realized that I was wrong, I made the above graphic which was going to be the at the very top of this
-          website. It is a real-time interactive 3D animation in space made with BabylonJS."
+          website. It is a real-time interactive 3D animation in space made with BabylonJS. Project Midnight is a nice
+           balance between flashy and simple."
         />
 
         <Grid item xs container justify="center">
