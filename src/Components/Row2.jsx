@@ -23,11 +23,10 @@ export default class Row2 extends Component {
 
             <h1 id="project-paragraph">
               Given a picture of the sky, the program will use CV2 to filter for
-              stars, then using these stars as coordinates, Delaunay
-              triangulation is applied to the points creating an artistic
-              representation of the image. Then edge detection is applied to
-              preserve as much of the outline of non-sky elements when
-              triangulated.
+              stars, then using these stars as coordinates and points found
+              through canny edge detection, Delaunay triangulation is applied
+              creating an artistic representation of the image. Edge detection
+              preserves the outline of non-sky elements when triangulated.
             </h1>
           </Fade>
         </Grid>
