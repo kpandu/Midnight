@@ -1,23 +1,19 @@
-import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import canny from "../Assets/canny.png";
-import "./styles.css";
-import ProjectCard from "./ProjectCard";
-import Fade from "react-reveal";
+import React, { Component } from 'react';
+import { Grid, Container } from '@material-ui/core';
+import canny from '../Assets/canny.png';
+import './styles.css';
+import ProjectCard from './ProjectCard';
+import Fade from 'react-reveal';
+import Quote from './Quote';
 
 export default class Row3 extends Component {
   render() {
     return (
       <Grid container justify="center" alignItems="flex-start" spacing={6}>
-        <Grid item xs container justify="center">
-          <Fade zoom duration={1600}>
-            <h1 id="quote" style={{ marginBottom: "25%", marginTop: "15%" }}>
-              ...for knowledge is limited to all we now know and understand...
-            </h1>
-          </Fade>
-        </Grid>
+        <Quote text="...for knowledge is limited to all we now know and understand..." />
+
         <ProjectCard
-          src={require("../Assets/tasker.mp4")}
+          src={require('../Assets/tasker.mp4')}
           title="TASKER"
           width="30vh"
           phone

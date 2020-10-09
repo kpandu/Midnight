@@ -1,11 +1,11 @@
-import { Grid } from "@material-ui/core";
-import * as easings from "d3-ease";
-import React, { Component } from "react";
-import TrackVisibility from "react-on-screen";
-import { Fade } from "react-reveal";
-import { animated } from "react-spring";
-import { Spring } from "react-spring/renderprops";
-import "./styles.css";
+import { Grid } from '@material-ui/core';
+import * as easings from 'd3-ease';
+import React, { Component } from 'react';
+import TrackVisibility from 'react-on-screen';
+import { Fade } from 'react-reveal';
+import { animated } from 'react-spring';
+import { Spring } from 'react-spring/renderprops';
+import './styles.css';
 export default class SingleTech extends Component {
   render() {
     console.log(this.props);
@@ -17,7 +17,13 @@ export default class SingleTech extends Component {
         direction="column"
         justify="flex-start"
         alignItems="center"
-        xs
+        xs={this.props.middle ? 12 : 4}
+        md="4"
+        className="tech-background"
+        style={{
+          background:
+            'linear-gradient(164deg, rgba(24,57,109,1) 0%, rgba(22,34,77,1) 100%);',
+        }}
       >
         <TrackVisibility>
           {({ isVisible }) =>
@@ -27,12 +33,11 @@ export default class SingleTech extends Component {
                 to={{ value: 50 }}
                 config={{
                   duration: 5500,
-                  easing: easings.easeCubic
+                  easing: easings.easeCubic,
                 }}
                 delay={this.props.delay}
-                reset
               >
-                {props => (
+                {(props) => (
                   <Fade zoom delay={this.props.delay}>
                     <animated.svg
                       width="55"
@@ -58,7 +63,7 @@ export default class SingleTech extends Component {
           </h1>
         </Fade>
         <h1 id="tech-list">
-          {this.props.list.map(x => {
+          {this.props.list.map((x) => {
             return (
               <Fade delay={1800 + this.props.delay / 1.5} key={x}>
                 {x}

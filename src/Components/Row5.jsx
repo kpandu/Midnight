@@ -1,17 +1,17 @@
-import { Grid } from "@material-ui/core";
-import React, { Component } from "react";
-import { Fade } from "react-reveal";
-import ProjectCard from "./ProjectCard";
-import "./styles.css";
+import { Grid } from '@material-ui/core';
+import React, { Component } from 'react';
+import ProjectCard from './ProjectCard';
+import Quote from './Quote';
+import './styles.css';
 
 export default class Row5 extends Component {
   render() {
     return (
-      <Grid container justify="center" alignItems="flex-start" spacing={6}>
+      <Grid container justify="center" alignItems="flex-start">
         <ProjectCard
-          src={require("../Assets/sol3video.mp4")}
+          src={require('../Assets/sol3video.mp4')}
           title="SOL"
-          width="60vw"
+          width="100%"
           video
           description="I was blinded by thinking that overly flashy looks good. Before I 
           realized that I was wrong, I made the above graphic which was going to be the at the very top of this
@@ -19,13 +19,7 @@ export default class Row5 extends Component {
            balance between flashy and simple."
         />
 
-        <Grid item xs container justify="center">
-          <Fade zoom duration={1600}>
-            <h1 id="quote" style={{ marginBottom: "25%", marginTop: "15%" }}>
-              ...while imagination embraces the entire world...
-            </h1>
-          </Fade>
-        </Grid>
+        <Quote text="...while imagination embraces the entire world..." />
       </Grid>
     );
   }

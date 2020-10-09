@@ -1,24 +1,23 @@
-import { Grid } from "@material-ui/core";
-import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
-import Tilt from "react-tilt";
-import "./styles.css";
+import { Grid } from '@material-ui/core';
+import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
+import Tilt from 'react-tilt';
+import './styles.css';
 export default class ProjectCard extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
-    let side = "flex-start";
-    if (this.props.left) side = "flex-end";
-    if (this.props.center) side = "center";
+    let side = 'flex-start';
+    if (this.props.left) side = 'flex-end';
+    if (this.props.center) side = 'center';
     return (
       <Grid
         item
         container
-        xs
+        xs="12"
+        md="6"
+        lg="4"
         justify={side}
         style={{
-          marginBottom: "5%",
+          marginBottom: '5%',
         }}
       >
         <Grid
@@ -52,8 +51,8 @@ export default class ProjectCard extends Component {
                   src={this.props.src}
                   style={{
                     width: this.props.width,
-                    minWidth: "300px",
-                    borderRadius: this.props.phone ? "21px" : "0px",
+                    minWidth: '300px',
+                    borderRadius: this.props.phone ? '21px' : '0px',
                   }}
                   loop
                   type="video/mp4"

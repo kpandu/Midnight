@@ -1,8 +1,9 @@
-import React, { Component } from "react";
-import { Grid, Container } from "@material-ui/core";
-import "./styles.css";
-import ProjectCard from "./ProjectCard";
-import { Fade } from "react-reveal";
+import React, { Component } from 'react';
+import { Grid, Container } from '@material-ui/core';
+import './styles.css';
+import ProjectCard from './ProjectCard';
+import { Fade } from 'react-reveal';
+import Quote from './Quote';
 
 export default class Row1 extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class Row1 extends Component {
           width="90%"
         />
         <ProjectCard
-          src={require("../Assets/social_cropped.mp4")}
+          src={require('../Assets/social_cropped.mp4')}
           title="IOS/ANDROID SOCIAL MEDIA APP"
           width="40vh"
           phone
@@ -23,13 +24,8 @@ export default class Row1 extends Component {
            which was made with React Native & Firebase."
           video
         />
-        <Grid item xs container justify="center">
-          <Fade zoom duration={1600}>
-            <h1 id="quote" style={{ marginBottom: "25%", marginTop: "15%" }}>
-              "Imagination is more important than knowledge...
-            </h1>
-          </Fade>
-        </Grid>
+
+        <Quote text='"Imagination is more important than knowledge...' />
       </Grid>
     );
   }
