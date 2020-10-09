@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebabe57b.chunk.css",
-    "main.js": "/static/js/main.16c01878.chunk.js",
-    "main.js.map": "/static/js/main.16c01878.chunk.js.map",
+    "main.css": "/static/css/main.7b3a3f1c.chunk.css",
+    "main.js": "/static/js/main.10e7d6a5.chunk.js",
+    "main.js.map": "/static/js/main.10e7d6a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e58e0802.js",
     "runtime-main.js.map": "/static/js/runtime-main.e58e0802.js.map",
-    "static/js/2.98d96b1a.chunk.js": "/static/js/2.98d96b1a.chunk.js",
-    "static/js/2.98d96b1a.chunk.js.map": "/static/js/2.98d96b1a.chunk.js.map",
+    "static/js/2.024b09b7.chunk.js": "/static/js/2.024b09b7.chunk.js",
+    "static/js/2.024b09b7.chunk.js.map": "/static/js/2.024b09b7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0a42d2de46e9f10e7cd8ebbca8fecfef.js": "/precache-manifest.0a42d2de46e9f10e7cd8ebbca8fecfef.js",
+    "precache-manifest.8f16f6c1eabddc0921f99b1b8859040d.js": "/precache-manifest.8f16f6c1eabddc0921f99b1b8859040d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ebabe57b.chunk.css.map": "/static/css/main.ebabe57b.chunk.css.map",
-    "static/js/2.98d96b1a.chunk.js.LICENSE.txt": "/static/js/2.98d96b1a.chunk.js.LICENSE.txt",
+    "static/css/main.7b3a3f1c.chunk.css.map": "/static/css/main.7b3a3f1c.chunk.css.map",
+    "static/js/2.024b09b7.chunk.js.LICENSE.txt": "/static/js/2.024b09b7.chunk.js.LICENSE.txt",
     "static/media/MediaCNN.mp4": "/static/media/MediaCNN.210a5439.mp4",
     "static/media/SOL4crop.jpg": "/static/media/SOL4crop.c4755f22.jpg",
     "static/media/canny.png": "/static/media/canny.73242700.png",
@@ -21,6 +21,7 @@
     "static/media/github.svg": "/static/media/github.1bb02710.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.937b5084.svg",
     "static/media/me.png": "/static/media/me.342b7f76.png",
+    "static/media/panorama.png": "/static/media/panorama.56c043bf.png",
     "static/media/social_cropped.mp4": "/static/media/social_cropped.557df9b4.mp4",
     "static/media/sol2video.mp4": "/static/media/sol2video.2b4030ae.mp4",
     "static/media/sol3video.mp4": "/static/media/sol3video.51d5a75b.mp4",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e58e0802.js",
-    "static/js/2.98d96b1a.chunk.js",
-    "static/css/main.ebabe57b.chunk.css",
-    "static/js/main.16c01878.chunk.js"
+    "static/js/2.024b09b7.chunk.js",
+    "static/css/main.7b3a3f1c.chunk.css",
+    "static/js/main.10e7d6a5.chunk.js"
   ]
 }
